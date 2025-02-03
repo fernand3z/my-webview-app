@@ -18,12 +18,14 @@ const Tab = createBottomTabNavigator<RootTabParamList>();
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    backgroundColor: 'transparent',
   },
 });
 
 export default function App() {
   return (
     <SafeAreaProvider>
+      <StatusBar style="auto" translucent backgroundColor="transparent" />
       <SafeAreaView style={styles.container}>
         <NavigationContainer>
           <Tab.Navigator
