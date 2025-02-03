@@ -4,11 +4,11 @@
     "slug": "webview-app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/favicon.ico",
+    "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/favicon.ico",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,19 +17,21 @@
       "bundleIdentifier": "dev.expo.mywebviewapp",
       "buildNumber": "1",
       "infoPlist": {
-        "ITSAppUsesNonExemptEncryption": false
+        "ITSAppUsesNonExemptEncryption": false,
+        "UIViewControllerBasedStatusBarAppearance": true,
+        "UIStatusBarHidden": false
       }
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/favicon.ico",
+        "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
       "package": "dev.expo.mywebviewapp",
-      "versionCode": 1
+      "softwareKeyboardLayoutMode": "pan"
     },
     "web": {
-      "favicon": "./assets/favicon.ico"
+      "favicon": "./assets/favicon.png"
     },
     "extra": {
       "eas": {
