@@ -1,4 +1,4 @@
-# DevLogz - Blog & Portfolio WebView App
+# DevLogz - Blog WebView App
 
 ⬇️ [Download the latest release](https://github.com/fernand3z/my-webview-app/releases/tag/v1.0.0)
 
