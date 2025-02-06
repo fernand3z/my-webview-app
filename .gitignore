@@ -16,6 +16,32 @@ expo-env.d.ts
 *.p12
 *.key
 *.mobileprovision
+*.keystore
+*.hprof
+
+# Android/IntelliJ
+android/build/
+android/app/build/
+android/.gradle/
+android/.idea/
+android/local.properties
+android/*.iml
+.idea/
+
+# iOS
+ios/build/
+ios/Pods/
+ios/*.mode1v3
+ios/*.mode2v3
+ios/*.moved-aside
+ios/*.pbxuser
+ios/*.perspectivev3
+ios/!default.pbxuser
+ios/!default.mode1v3
+ios/!default.mode2v3
+ios/!default.perspectivev3
+ios/xcuserdata
+ios/.xcode.env.local
 
 # Metro
 .metro-health-check*
@@ -24,13 +50,45 @@ expo-env.d.ts
 npm-debug.*
 yarn-debug.*
 yarn-error.*
+.log/
 
 # macOS
 .DS_Store
 *.pem
 
 # local env files
+.env
 .env*.local
+.env.development
+.env.test
+.env.production
 
 # typescript
 *.tsbuildinfo
+
+# testing
+coverage/
+
+# Temporary files
+*.swp
+*.swo
+*~
+
+# VSCode
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Xcode
+*.xcworkspace
+!default.xcworkspace
+xcuserdata/
+
+# Gradle
+.gradle/
+build/
+
+# EAS
+eas.json.local
